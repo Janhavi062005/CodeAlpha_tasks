@@ -54,25 +54,21 @@ Step 2: (Windows Only) Install Npcap
 
 Step 3: Run the Sniffer
   -Run the program with administrator privileges:
-```bash
+   ```bash
    python sniffer.py
-```
-
-(Administrator access is required for packet capture.)
+   ```
+  (Administrator access is required for packet capture.)
 
 Step 4: Generate Network Traffic
 
-    To see packet output, generate new network activity after running the program.
-
-    The most reliable method:
   ```bash
      ping google.com
-```
+  ```
 
--Other methods:
-  --Refresh a website
-  --Open a new browser tab
-  --Access a different website
+Other methods: \
+    -Refresh a website \
+    -Open a new browser tab \
+    -Access a different website 
 
 Step 5: Stop the Program
 
@@ -83,24 +79,24 @@ The program stops automatically after capturing 10 packets
 
 ## Observations
 
-Packet capture stops after 10 packets due to the count limit.
+- Packet capture stops after 10 packets due to the count limit.
 
-Ping consistently generates visible packets and is ideal for testing.
+- Ping consistently generates visible packets and is ideal for testing.
 
-Already-open or buffered applications may not generate new packets immediately.
+- Already-open or buffered applications may not generate new packets immediately.
 
 ---
 
 ## Learning Outcome
 
-This task helped me understand:
+- This task helped me understand:
 
-Packet-based network communication
+ - Packet-based network communication
 
-IP, TCP, and UDP protocol basics
+ - IP, TCP, and UDP protocol basics
 
-How packet sniffers work internally
+ - How packet sniffers work internally
 
-Real-time behavior of network traffic   
+- Real-time behavior of network traffic   
    
 
