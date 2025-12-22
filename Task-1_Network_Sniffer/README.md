@@ -46,6 +46,7 @@ The sniffer operates in **passive mode**, meaning it only observes packets and d
 Step 1. Install Scapy:
    ```bash
    pip install scapy
+   ```
 
 Step 2: (Windows Only) Install Npcap
  -Download and install Npcap
@@ -55,6 +56,7 @@ Step 3: Run the Sniffer
   -Run the program with administrator privileges:
 ```bash
    python sniffer.py
+```
 
 (Administrator access is required for packet capture.)
 
@@ -65,6 +67,7 @@ Step 4: Generate Network Traffic
     The most reliable method:
   ```bash
      ping google.com
+```
 
 -Other methods:
   --Refresh a website
@@ -86,7 +89,9 @@ Ping consistently generates visible packets and is ideal for testing.
 
 Already-open or buffered applications may not generate new packets immediately.
 
-Learning Outcome
+---
+
+## Learning Outcome
 
 This task helped me understand:
 
