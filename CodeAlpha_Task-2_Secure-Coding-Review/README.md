@@ -108,39 +108,42 @@ The following security improvements were implemented in `secure_code.py`:
 ### Run the Insecure Version
 ```bash
 python vulnerable_code.py
+```
 Run the Secure Version
+```bash
 python secure_code.py
+```
 
 
-Try logging in with:
+###Try logging in with:
 
 Username: admin
 
 Password: admin123
 
-Observations
+##Observations
 
-Hardcoded credentials are one of the most common real-world security issues.
+- Hardcoded credentials are one of the most common real-world security issues.
 
-Password hashing significantly improves security with minimal code changes.
+- Password hashing significantly improves security with minimal code changes.
 
-Secure coding practices can greatly reduce risks even in small programs.
+- Secure coding practices can greatly reduce risks even in small programs.
+  
+---
 
-Learning Outcome
+##Learning Outcome
 
-Through this task, I learned:
+**Through this task, I learned:**
 
-How to identify common security vulnerabilities in code
+- How to identify common security vulnerabilities in code
 
-Why hardcoded credentials and plain-text passwords are dangerous
+- Why hardcoded credentials and plain-text passwords are dangerous
 
-How password hashing improves authentication security
+- How password hashing improves authentication security
 
-The importance of separating logic for better security and maintainability
+- The importance of separating logic for better security and maintainability
 
-How to approach code review from a security perspective
+- How to approach code review from a security perspective
 
-Disclaimer
+---
 
-This project is developed strictly for educational purposes only.
-The insecure version is intentionally vulnerable and should never be used in real-world applications.
