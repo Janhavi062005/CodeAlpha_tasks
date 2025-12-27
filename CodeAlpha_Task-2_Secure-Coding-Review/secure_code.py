@@ -1,6 +1,5 @@
 
 # Improved and safer login example
-
 import hashlib
 import getpass
 
